@@ -8,4 +8,4 @@ Core Requirements / Tasks completed:
 If the default value is not one of the choices, it gets added to the list of choices when the field is saved.
 
 3) Added a button that allows the builder to clear the form and start fresh.
-The submit button creates json object and post it to http://www.mocky.io/v2/566061f21200008e3aabd919. It log the post data to the console.
+The submit button creates json object and post it to http://www.mocky.io/v2/566061f21200008e3aabd919. It logs the post data to the console.
