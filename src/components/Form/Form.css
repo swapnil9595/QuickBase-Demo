@@ -1,0 +1,88 @@
+.form {
+  border: 1px solid rgb(176, 209, 225);
+  box-sizing: border-box;
+  max-width: 750px;
+  margin: auto;
+  transform: scale(1.5);
+  margin-top: 120px;
+  border-radius: 5px;
+}
+.form label {
+  display: inline-block;
+  width: 15%;
+  text-align: left;
+  padding-right: 20px;
+  margin-left: 30px;
+  vertical-align: top;
+}
+.form row {
+  padding-left: 10px;
+}
+.form h2 {
+  border: 1px solid rgb(176, 209, 225, 0.2);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: rgb(176, 209, 225, 0.5);
+  font-size: 20px;
+  color: #197bb8;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  text-align: left;
+}
+.form input:not([name="checkbox"]),
+.form textarea,
+.form select {
+  width: 50%;
+  padding: 6px 10px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.buttonContainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.form button {
+  background: #0db531;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  margin: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: center;
+}
+
+#typeSelect {
+  width: 25%;
+}
+
+#checkbox {
+  padding-left: 10px;
+}
+
+#buttonCancel {
+  background: none;
+  color: red;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+#centeredY {
+  margin-left: 40px;
+  margin-top: 30px;
+  position: absolute;
+}
+
+#cb {
+  margin: 10px;
+}
